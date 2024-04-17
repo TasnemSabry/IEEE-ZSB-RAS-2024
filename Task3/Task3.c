@@ -120,11 +120,12 @@ Used to make decisions in the code based on runtime conditions, you can use the 
 }
 """
 
-//Conditional compilationdirectives
+//Conditional compilation directives
 
 """
 #ifdef:
-Used to include a section of code if a certain macro is defined by #define.
+Used to include a section of code if a certain macro is defined by #define,
+or it allows specific parts of the code to be included or excluded based on preprocessor-defined conditions.
 
 #endif:
 Used to mark the end of #ifdef.
