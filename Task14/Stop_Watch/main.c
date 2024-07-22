@@ -1,10 +1,10 @@
 /*
  * 	Stop_Watch.c
- *
- * Created on: Jul 22, 2024
+
+ *  Created on: Jul 22, 2024
  *      Author: Tasnem
  */
-//=================================================================================================
+
 #include <avr/io.h>
 #include <util/delay.h>
 #include<avr/interrupt.h>
@@ -22,7 +22,7 @@ int main(void){
 	DDRC |= 0x0F;
 	PORTC &= 0xF0;
 
-	// Seven Segment
+	// Seven-Segment Enable
 	DDRA |= 0x3F;
 	PORTA &= 0xC0;
 

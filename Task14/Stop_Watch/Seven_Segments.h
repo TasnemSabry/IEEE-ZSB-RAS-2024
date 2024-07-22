@@ -1,6 +1,6 @@
 /*
  * Seven_Segments.h
- *
+
  *
  *  Created on: Jul 22, 2024
  *      Author: Tasnem
@@ -9,6 +9,7 @@
 #ifndef SEVEN_SEGMENTS_H_
 #define SEVEN_SEGMENTS_H_
 #include <avr/io.h>
+
 
 unsigned char SecondsOne = 0;
 unsigned char SecondsTwo = 0;

@@ -1,8 +1,8 @@
 /*
  * Interrupts.h
+
  *
- *
- * Created on: Jul 22, 2024
+ *  Created on: Jul 22, 2024
  *      Author: Tasnem
  */
 
@@ -33,6 +33,7 @@ void INT2_Init(void){
 	DDRD &= ~(1<<PB2);
 	PORTB |=(1<<PB2);
 }
+
 
 
 #endif /* INTERRUPTS_H_ */
