@@ -1,7 +1,8 @@
 /*
  * 	Stop_Watch.c
- *  Created on: 14 Sept 2022
- *  Author: Omar Ben Emad
+ *
+ * Created on: Jul 22, 2024
+ *      Author: Tasnem
  */
 //=================================================================================================
 #include <avr/io.h>
